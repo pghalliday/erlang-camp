@@ -3,3 +3,7 @@ Berksfile.lock
 *.beam
 ebin
 deps
+*.boot
+*.script
+*.tar.gz
+.DS_Store
