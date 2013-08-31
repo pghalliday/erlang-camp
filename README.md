@@ -6,6 +6,7 @@ Pre-requisites
 
 - [VirtualBox 4.2.16](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant 1.2.7](http://downloads.vagrantup.com/)
+- [XQuartz](http://xquartz.macosforge.org/landing/) (for X11 forwarding of tools like appmon)
 - The vagrant bindler plugin
 
 ```
