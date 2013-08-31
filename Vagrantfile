@@ -9,6 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box"
 
   config.vm.hostname = "erlang-camp"
+  config.ssh.forward_x11 = true
 
   config.vm.provider :virtualbox do |vb|
     # Give enough horsepower to build without taking all day.
